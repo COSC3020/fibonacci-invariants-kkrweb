@@ -9,7 +9,7 @@ function fib(n)
 {
 if(n <= 0) 
 {
-    return [];
+    return 0;
 }
 
 var arr = [];

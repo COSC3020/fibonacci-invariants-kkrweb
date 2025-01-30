@@ -7,6 +7,11 @@
 //fibbonaci function
 function fib(n)
 {
+if(n <= 0) 
+{
+    return [];
+}
+
 var arr = [];
 var index = 0;
     

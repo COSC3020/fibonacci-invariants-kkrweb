@@ -1,3 +1,26 @@
-function fib(n) {
-    return n;
+// Kane Kriz
+// UWYO COSC 3020
+// 30 January 2025
+//
+//
+
+//fibbonaci function
+function fib(n)
+{
+var arr = [];
+var index = 0;
+    
+while(index < n)
+{
+    if(index < 2)
+        {
+        arr.push(index);
+        }
+    else
+        {
+        arr.push(arr[index-1] + arr[index-2]);
+        }
+    index++;
+    }
+return arr;
 }

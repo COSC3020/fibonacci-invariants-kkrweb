@@ -7,27 +7,21 @@
 //fibbonaci function
 function fib(n)
 {
-if(n < 0)
+    if(n < 0)
     {
-    return [];
+        return [];
     } 
-var arr;
-    if(n === 0) 
-    {
-        return arr;
-    }
-var index = 1; 
+    var arr = [];
+    var index;
+    
+    arr[0] = 0;
+    arr[1] = 1;
+    index = 2;  
+    
     while(index < n)
     {
-        if(index < 2)
-        {
-        arr.push(1);
-        }
-        else
-        {
         arr.push(arr[index-1] + arr[index-2]);
-        }
-index++;
-}
-return arr;
+        index++;
+    }
+    return arr;
 }

@@ -18,7 +18,7 @@ function fib(n)
     arr[1] = 1;
     index = 2;  
     
-    while(index < n)
+    while(index <= n)
     {
         arr.push(arr[index-1] + arr[index-2]);
         index++;

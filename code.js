@@ -7,21 +7,5 @@
 //fibbonaci function
 function fib(n)
 {
-    if(n < 0)
-    {
-        return [];
-    } 
-    var arr = [];
-    var index;
-    
-    arr[0] = 0;
-    arr[1] = 1;
-    index = 2;  
-    
-    while(index <= n)
-    {
-        arr.push(arr[index-1] + arr[index-2]);
-        index++;
-    }
-    return arr;
+//nuking this. was stupid and did not use recursion as specified
 }

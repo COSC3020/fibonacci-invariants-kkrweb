@@ -11,7 +11,7 @@ function fib(n)
     {
     return [];
     }
-    var arr = ;
+    var arr = [];
     
     if(n === 1) 
     {

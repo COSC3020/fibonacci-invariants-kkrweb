@@ -7,5 +7,5 @@
 //fibbonaci function
 function fib(n)
 {
-//nuking this. was stupid and did not use recursion as specified
+//nuking this. I was stupid and did not use recursion as specified
 }

@@ -44,3 +44,4 @@ Plagiarism Acknowledgement: I certify that I have listed all sources used to com
 
 Citations: work in progress
 [https://www.w3schools.com/jsref/jsref_push.asp](url)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness](url) trying to get better at == and === situations in JS

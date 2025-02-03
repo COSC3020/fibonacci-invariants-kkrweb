@@ -30,7 +30,11 @@ your answer to this markdown file.
 
 //
 
-// RESPONSE: not complete
+// RESPONSE: 
+A good invariant for my recursive implementation of fib() is: 
+At the start of each recursive call, fibArr contains the Fibonacci sequence from index 0 up to currentIteration - 1.
+
+The reasoning for this would be that explicitly, the recursion helper function is made to properly handle the first two fibbonaci entries manually. From then on, the recursion properly handles and computes later indices pushed onto the array. Lastly, the handling of currentIteration and its comparisons to n during each call of the helper recursive function is ensured to stop at the correct moment.
 
 //1/30/2025
 

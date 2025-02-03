@@ -1,6 +1,6 @@
 // Kane Kriz
 // UWYO COSC 3020
-// 30 January 2025
+// 3 Feb 2025
 //
 //
 
@@ -13,11 +13,12 @@ function fib(n)
 
     function recHelper()
     {
-        if(currentIteration > n) //it has reached the desired index
+        if(currentIteration > n) //it has reached the desired index, 
+            //currentIteraction is now greater so it will just return fibArr which is now filled up as desired
         {
             return fibArr;
         }
-        if(currentIteration === 0) 
+        if(currentIteration === 0) //trying to get better at a habit of using === and == better appropriately
         {
             fibArr.push(0);
         } 
